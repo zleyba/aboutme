@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="8165c525-e984-4c2b-8175-2c757d8c719c" name="aboutme" url="https://bootcamp-coders.cnm.edu/~zleyba">
-        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/zleyba/public_html" accessType="SFTP" username="zleyba" keyPair="true">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/zleyba/public_html/aboutme" accessType="SFTP" username="zleyba" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
