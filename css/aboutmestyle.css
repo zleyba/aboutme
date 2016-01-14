@@ -12,34 +12,52 @@ h1 {
 	color: #DEDEDE;
 	background: #ABACEB;
 	padding: 0;
-	margin: 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
 }
-
-header {
-	width:100%;
-	text-align:center;
-}
-#navbar {
+#pagetitle {
 	font: 1em "Work Sans" sans-serif;
 	text-align: center;
 	color: #ABACEB;
 	background: #DEDEDE;
-	height:auto;
 	box-shadow: 10px 10PX 0 #7f8c8d;
-	padding: 0;
+	margin: 0px 0px 0px 0px;
+}
+
+header {
+	width:100%;
+	height: 270px;
+	text-align:center;
+	margin: 10px 0px 0px 0px;
+}
+
+#navbar {
+	position: fixed;
+	top: 10px;
+	left: 0;
+	z-index: 9999;
+	font: 1em "Work Sans" sans-serif;
+	text-align: center;
+	color: #ABACEB;
+	background: #DEDEDE;
+	box-shadow: 10px 10PX 0 #7f8c8d;
+	padding: 15px;
+	margin: 0px 0px 0px 0px;
 }
 
 #navbar a{
 	font: 1em "Work Sans" sans-serif;
 	text-align: center;
 	color: #ABACEB;
+	text-decoration: none;
 }
 
 #navbar a:hover{
 	font: 1em "Work Sans" sans-serif;
+	font-style: oblique;
 	text-align: center;
 	color: #ABEBCA;
 	background: white;
+	box-shadow: 5px 5PX 0 0 #7f8c8d;
 }
 
 .content {
@@ -50,15 +68,16 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;
-	width: 800px;
+	max-width: 800px;
+	min-width: 400px;
 	height: auto;
 	border-radius: 100px;
 	padding: 20px;
 }
 
 #prof {
-	width: 250px;
-	height: 250px;
+	width: 257px;
+	height: 257px;
 	border: 5px solid #88888A;
 	border-radius: 150px;
 	text-align: center;
@@ -68,7 +87,15 @@ header {
 #prof:hover {
 	width: 260px;
 	height: 260px;
-	border: 6px solid yellow;
-	border-radius: 75px;
-	box-shadow: 10px 10px 5px 10px;
+	border: 6px solid #fff796;
+	border-radius: 105px;
+	box-shadow: 10px 10px 10px 2px #777352;
+}
+
+#prof:focus {
+	width: 260px;
+	height: 260px;
+	border: 6px solid #fff796;
+	border-radius: 105px;
+	box-shadow: 10px 10px 10px 2px #777352;
 }
