@@ -1,12 +1,74 @@
+html {
+	font-size: 16px;
+}
+
 body{
-	background: #70E6DA;
+	background: white;
 }
 
 h1 {
-	font: sans-serif;
+	font: 3em "Work Sans" sans-serif;
 	text-align: center;
-	color: #88888A;
+	color: #DEDEDE;
+	background: #ABACEB;
+	padding: 0;
+	margin: 0px 0px 10px;
 }
+
+header {
+	width:100%;
+	text-align:center;
+}
+#navbar {
+	font: 1em "Work Sans" sans-serif;
+	text-align: center;
+	color: #ABACEB;
+	background: #DEDEDE;
+	height:auto;
+	box-shadow: 10px 10PX 0 #7f8c8d;
+	padding: 0;
+}
+
+#navbar a{
+	font: 1em "Work Sans" sans-serif;
+	text-align: center;
+	color: #ABACEB;
+}
+
+#navbar a:hover{
+	font: 1em "Work Sans" sans-serif;
+	text-align: center;
+	color: #ABEBCA;
+	background: white;
+}
+
+.content {
+	text-align: center;
+	font: 1em "Helvetica Neue" sans-serif;
+	color: #88888A;
+	background: #ABEBCA;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 800px;
+	height: auto;
+	border-radius: 100px;
+	padding: 20px;
+}
+
 #prof {
-	width: 400px;
-	height: 400px;}
+	width: 250px;
+	height: 250px;
+	border: 5px solid #88888A;
+	border-radius: 150px;
+	text-align: center;
+}
+
+
+#prof:hover {
+	width: 260px;
+	height: 260px;
+	border: 6px solid yellow;
+	border-radius: 75px;
+	box-shadow: 10px 10px 5px 10px;
+}
