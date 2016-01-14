@@ -99,3 +99,39 @@ header {
 	border-radius: 105px;
 	box-shadow: 10px 10px 10px 2px #777352;
 }
+
+.iglogo {
+	width: 30px;
+	height:30px;
+	display:block;
+	background:transparent url('iglogo.png') center top no-repeat;
+}
+
+.iglogo:hover {
+	background-image: url('img/igalt.png');
+
+}
+
+.iglogo {
+	width: 30px;
+	height:30px;
+	display:block;
+	background:transparent url('img/tumblrlogo.png') center top no-repeat;
+}
+
+.iglogo:hover {
+	background-image: url('img/tumblralt.png');
+
+}
+
+.tweetlogo {
+	width: 30px;
+	height:30px;
+	display:block;
+	background:transparent url('img/tweetlogo.png') center top no-repeat;
+}
+
+.iglogo:hover {
+	background-image: url('img/tweetalt.png');
+
+}
